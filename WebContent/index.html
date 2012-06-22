@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>Boris Dominando Servlets & JSP's</title>
+</head>
+<body>
+	<h1>Servlets, JSP's & Boris</h1>
+	<form action="SelectBeer.do" method="POST">
+		<fieldset style="width: 300px">
+			Selecione a cerveja <select name="color" size="1">
+				<option value="light">light</option>
+				<option value="amber">amber</option>
+				<option value="brown">brown</option>
+				<option value="dark">dark</option>
+			</select> <input type="submit" value="Enviar" />
+		</fieldset>
+	</form>
+	<form action="BoaNoiteServlet" method="GET">
+		<p>
+			<label>Ou pressione o botão para chamar o servlet 'BoaNoiteServlet'
+			<input type="submit" value="Obter HTML" />
+			</label>
+		</p>
+	</form>
+	<form action="SelectBeer.do" method="GET">
+		<p>
+			<label>Agora, digite seu nome aí ..
+			<input type="text" name="nome"/>
+			<input type="submit" value="Enviar" />
+			</label>
+		</p>
+	</form>
+	<form action="Redir.boris" method="POST">
+		<p>
+			<label>Escolha o site para onde quer ir:
+			<select name="url" size="1">
+				<option value="http://www.uofrepresentacoes.com.br/">UOF Representações</option>
+				<option value="http://www.opacomunicacao.com.br/">Opa! Comunicação</option>
+				<option value="http://www.ioriente.com.br/">Instaladora Oriente</option>
+			</select>
+			<input type="submit" value="Me Leva!" />
+			</label>
+		</p>
+	</form>
+</body>
+</html>
