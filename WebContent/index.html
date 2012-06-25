@@ -17,7 +17,7 @@
 			</select> <input type="submit" value="Enviar" />
 		</fieldset>
 	</form>
-	<form action="BoaNoiteServlet" method="GET">
+	<form action="boanoite.boris" method="GET">
 		<p>
 			<label>Ou pressione o botão para chamar o servlet 'BoaNoiteServlet'
 			<input type="submit" value="Obter HTML" />
@@ -44,5 +44,19 @@
 			</label>
 		</p>
 	</form>
+	<form action="boanoite.boris" method="POST">
+		<p>
+			<label>Veja a foto do Borão por POST</label>
+			<input type="submit" value="Ver" />			
+		</p>
+	</form>
+	<p>
+	Compartilhando Info: clique <a href="/exemplo/share">aqui</a>
+	<br/><br/>
+	<form action="share" method="POST">
+	 Digite o site pra onde vc quer ir:
+	 <input type="text" name="site"/>
+	 <input type="submit"/></form>
+	</p>
 </body>
 </html>

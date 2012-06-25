@@ -9,24 +9,40 @@
     <servlet-name>ExemploServlet</servlet-name>
     <servlet-class>ExemploServlet</servlet-class>
   </servlet>
+  <servlet-mapping>
+    <servlet-name>ExemploServlet</servlet-name>
+    <url-pattern>/servlet</url-pattern>
+  </servlet-mapping>
   <servlet>
     <servlet-name>Ch3 Beer</servlet-name>
     <servlet-class>com.example.web.BeerSelect</servlet-class>
   </servlet>
+  <servlet-mapping>
+    <servlet-name>Ch3 Beer</servlet-name>
+    <url-pattern>/SelectBeer.do</url-pattern>
+  </servlet-mapping>
   <servlet>
     <servlet-name>Servlet Redirecionando</servlet-name>
     <servlet-class>ServletRedir</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>ExemploServlet</servlet-name>
-    <url-pattern>/servlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>Ch3 Beer</servlet-name>
-    <url-pattern>/SelectBeer.do</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
     <servlet-name>Servlet Redirecionando</servlet-name>
     <url-pattern>/Redir.boris</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Boa Noite Servlet</servlet-name>
+    <servlet-class>BoaNoiteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Boa Noite Servlet</servlet-name>
+    <url-pattern>/boanoite.boris</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Getting web.xml Info</servlet-name>
+    <servlet-class>ShareInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Getting web.xml Info</servlet-name>
+    <url-pattern>/share</url-pattern>
   </servlet-mapping>
 </web-app>
