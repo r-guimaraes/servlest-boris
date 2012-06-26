@@ -52,6 +52,14 @@
       <param-name>msg</param-name>
       <param-value> Esta é a mensagem inicial do borão </param-value>
     </init-param>
+    <init-param>
+      <param-name>dia</param-name>
+      <param-value> segunda-feira, 25 junho 2012 </param-value>
+    </init-param>
+    <init-param>
+      <param-name>autor</param-name>
+      <param-value> webmaster@rodrigodeoliveira.net </param-value>
+    </init-param>
   </servlet>
   <servlet-mapping>
     <servlet-name>Initial Config</servlet-name>
