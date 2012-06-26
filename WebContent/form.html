@@ -2,20 +2,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>confira seu saldo</title>
 </head>
 <body>
-	<form action="SelectBeer.do" method="POST">
-		<fieldset>
-		Selecione a cerveja
-		<select name="color" size="1">
-		 <option value="light">light</option>
-		 <option value="amber">amber</option>
-		 <option value="brown">brown</option>
-		 <option value="dark">dark</option>
-		</select>
-		 <input type="submit" value="Enviar" />
-		</fieldset>
+	<form action="login.bo" method="POST">
+		Identifique-se:
+		<br /><br />
+		<input type="text" name="user"/>
+		<input type="password" name="password" />
+		<br />
+	 	<input type="submit"/></form>
 	</form>
+	
 </body>
 </html>

@@ -38,8 +38,8 @@ public class ShareInfo extends HttpServlet {
 		String link = request.getParameter("site");
 		String destino;
 		pw.println("<html><body><h4>Compartilhando Info</h4></body></html>");
-		if (link.equals("INF")) {
-			destino = "inf.ufg";
+		if (link.equals("japa")) {
+			destino = "ioriente";
 		} else if (link.equals("Opa")) {
 			destino = "opacomunicacao";
 		} else {
