@@ -65,7 +65,6 @@
     <servlet-name>Initial Config</servlet-name>
     <url-pattern>/initialConfig.bb</url-pattern>
   </servlet-mapping>
-    
   <servlet>
     <servlet-name>Login Servlet</servlet-name>
     <servlet-class>com.bhorist.banco.LoginServlet</servlet-class>
@@ -82,6 +81,4 @@
     <servlet-name>Saldo Servlet</servlet-name>
     <url-pattern>/saldo</url-pattern>
   </servlet-mapping>
-  
-  
 </web-app>

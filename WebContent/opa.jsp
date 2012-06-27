@@ -29,7 +29,7 @@
 <form action="opa.jsp" method="POST">
 		<fieldset style="width: 350px">
 			Selecione suas linguagens preferidas
-			<select name="lang" size="4" multiple="mutiple">
+			<select name="lang" size="4" multiple="multiple">
 				<option value="java">Java</option>
 				<option value="ruby">Ruby</option>
 				<option value="php">PHP</option>
@@ -43,7 +43,8 @@
 	  if (langs != null) {
 			out.println("Então você gosta de ..");
 		  for (int i=0; i < langs.length; i++) {
-			out.println("<strong>" + langs[i] + "</strong> <br />");
+			out.println("<strong>" + langs[i] + "</strong>");
+			out.println("<br/ >");
 			if(langs[i].equals("asp")) {
 				out.println("Pouts .. ASP meu?! :/");
 			}else if(langs[i].equals("java")){
